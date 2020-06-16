@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAF Demo" verbose="0">
+  <listeners>
+    <listener class-name="com.qmetry.qaf.example.utils.QAFListener"></listener>
+  </listeners>
+  <test name="BDD Test" enabled="true">
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2"></class>
+    </classes>
+  </test>
+</suite>
